@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(156, 252, 111);
+    background-color: #ffc107;
 }
 *{
     margin: 0;
@@ -106,31 +106,6 @@ ul li {
 .menu ul li{
     justify-content: flex-start;
 }
-/* .box1{
-    width: 10vh;
-    height: 100vh;
-    background: rgba(8, 74, 255, 0.411);
-    margin: 10px;
-    color: white;
-    font-size: 30px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin-right: 5px;
-} */
-
-/* .box2{
-    width: 150vh;
-    height: 50vh;
-    background-image: url(bg.jpg);
-    margin: 20px;
-    color: white;
-    font-size: 30px;
-    justify-content: flex-end;
-    align-items: center;
-    display: flex;
-    margin-right: 25px;
-} */
 
 .wratext{
     width: 30%;
@@ -224,17 +199,6 @@ fieldset{
     display: block;
 }
 
-/* .contact img {
-    width: 40px;
-    height: 40px;
-    display: block;
-    border-radius: 5px;
-}
-
-.contact img:hover, img:active{
-    font-size: 150%;
-} */
-
 ul li img a:hover, a:active{
     font-size: 150%;
 }
@@ -253,12 +217,38 @@ i:hover{
     font-size: 20px;
     margin-left: 10px;
     padding: 8px;
+    box-sizing: border-box;
 }
 
 .contact-form{
     background-image: url(10.jpg);
-    width: 90%;
-    height: 48vh;
-    justify-content: flex-start;
-    box-sizing: border-box;
+    width: 85%;
+    height: 62vh;
+    margin-right: 110vh;
+    margin-left: 100px;
 }
+
+h3{
+    color: rgb(53, 19, 248);
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-left: 100px;
+    text-transform: uppercase;
+}
+
+.contact-form .form-info:hover{
+    color: #76ff03;
+}
+
+.contact-form .form-info:active{
+    font-size: 30px;
+}
+
+p{
+    color: rgb(195, 98, 252);
+    font-size: 25px;
+    margin-left: 100px;
+    
+}
+
